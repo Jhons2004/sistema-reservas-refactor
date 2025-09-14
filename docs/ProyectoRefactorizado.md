@@ -140,7 +140,7 @@ dotnet msbuild ".\codigo refactor\refactor\refactor.csproj" /t:Build /p:Configur
 ---
 
 ## 7. Repositorio del proyecto
-- Repositorio sugerido: https://github.com/TU-USUARIO/sistema-reservas-refactor (reemplaza TU-USUARIO).
+- Repositorio publicado: https://github.com/Jhons2004/sistema-reservas-refactor
 
 Comandos para inicializar y publicar:
 ```powershell
@@ -160,7 +160,7 @@ git add .
 git commit -m "Refactor: alta cohesion, bajo acoplamiento, SOLID"
 
 # Crear repositorio en GitHub (pasos manuales) y luego:
-# git remote add origin https://github.com/TU-USUARIO/sistema-reservas-refactor.git
+# git remote add origin https://github.com/Jhons2004/sistema-reservas-refactor.git
 # git branch -M main
 # git push -u origin main
 ```

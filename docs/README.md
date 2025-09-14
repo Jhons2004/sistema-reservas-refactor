@@ -111,3 +111,6 @@ Set-Location "C:\Analisis De sistemas refactorizacion"
 dotnet msbuild ".\codigo refactor\refactor\refactor.csproj" /t:Build /p:Configuration=Debug
 & ".\codigo refactor\refactor\bin\Debug\refactor.exe"
 ```
+
+## Repositorio publicado
+- Enlace: https://github.com/Jhons2004/sistema-reservas-refactor
