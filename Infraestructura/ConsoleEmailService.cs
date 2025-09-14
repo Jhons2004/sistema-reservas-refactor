@@ -5,6 +5,7 @@ namespace refactor.Infraestructura
 {
     /// <summary>
     /// Implementación de IEmailService que utiliza la consola como salida.
+    /// Refactor: actúa como adaptador de demostración; en producción se sustituye por SMTP/API.
     /// </summary>
     public class ConsoleEmailService : IEmailService
     {

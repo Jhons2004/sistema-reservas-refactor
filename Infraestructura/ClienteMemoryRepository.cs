@@ -5,6 +5,7 @@ namespace refactor.Infraestructura
 {
     /// <summary>
     /// Implementación simple en memoria para persistencia de clientes.
+    /// Refactor: implementación por defecto para desarrollo/pruebas.
     /// </summary>
     public class ClienteMemoryRepository : IClienteRepository
     {

@@ -2,6 +2,7 @@ namespace refactor
 {
     /// <summary>
     /// Entidad de dominio para una reserva.
+    /// Refactor: se introduce para modelar explícitamente la transacción de reserva.
     /// </summary>
     public class Reserva
     {

@@ -5,6 +5,7 @@ namespace refactor.Infraestructura
 {
     /// <summary>
     /// Logger en memoria; conserva compatibilidad con inspección de logs durante ejecución.
+    /// Refactor: reemplaza 'Globals.logs' y evita estado global compartido.
     /// </summary>
     public class MemoryLogger : ILogger
     {

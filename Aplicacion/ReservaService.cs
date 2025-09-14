@@ -5,7 +5,8 @@ namespace refactor.Aplicacion
 {
     /// <summary>
     /// Servicio de aplicación para gestión de reservas.
-    /// Aplica SRP, desacoplando reglas y envío de correo.
+    /// Refactor: encapsula reglas de negocio y orquestación de notificaciones (SRP),
+    /// dejando que la fachada sólo coordine llamadas de alto nivel.
     /// </summary>
     public class ReservaService
     {

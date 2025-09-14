@@ -2,7 +2,8 @@ namespace refactor.Abstracciones
 {
     /// <summary>
     /// Servicio para envío de correos electrónicos.
-    /// Extraído para reducir acoplamiento con infraestructura.
+    /// Refactor: extraído desde la lógica de dominio para reducir acoplamiento con infraestructura
+    /// (SRP, DIP) y poder sustituir la implementación (OCP).
     /// </summary>
     public interface IEmailService
     {

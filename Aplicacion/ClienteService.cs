@@ -5,6 +5,7 @@ namespace refactor.Aplicacion
 {
     /// <summary>
     /// Servicio de aplicación enfocado en operaciones de cliente (alta cohesión).
+    /// Refactor: extrae la lógica de registro desde la fachada, aplicando SRP y DIP.
     /// </summary>
     public class ClienteService
     {

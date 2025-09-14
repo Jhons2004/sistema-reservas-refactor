@@ -13,8 +13,10 @@ namespace refactor
     using refactor.Infraestructura;
 
     /// <summary>
-    /// Fachada del sistema que orquesta servicios de aplicación,
-    /// manteniendo el nombre para compatibilidad con Program.Main.
+    /// Fachada del sistema que orquesta servicios de aplicación.
+    /// Refactor: separamos reglas de negocio en servicios (SRP) y aquí sólo
+    /// componemos dependencias por defecto (DIP). Se mantiene el nombre para
+    /// compatibilidad con Program.Main.
     /// </summary>
     public class SistemaReservas
     {
@@ -25,7 +27,8 @@ namespace refactor
 
         public SistemaReservas()
         {
-            // Composición por defecto (podría inyectarse desde Program para mayor flexibilidad)
+            // Composición por defecto (podría inyectarse desde Program para mayor flexibilidad).
+            // Refactor: dependemos de abstracciones y usamos adaptadores simples de infraestructura.
             _logger = new MemoryLogger();
             _repo = new ClienteMemoryRepository();
             _clienteService = new ClienteService(_repo, _logger);
